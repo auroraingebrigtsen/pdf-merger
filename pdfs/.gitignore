@@ -1,0 +1,4 @@
+# Ignore everything in this directory, dont want to track any PDFs
+*
+# Except this file
+!.gitignore

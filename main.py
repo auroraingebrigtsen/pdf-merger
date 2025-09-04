@@ -13,6 +13,8 @@ def main():
         for page in PdfReader(os.path.join(path, name)).pages:
             writer.add_page(page)
 
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
     with open(os.path.join(save_path, NEW_PDF_NAME), "wb") as f:
         writer.write(f)
 
