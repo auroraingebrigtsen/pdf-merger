@@ -1,0 +1,9 @@
+[project]
+name = "pdf-merger"
+version = "0.1.0"
+description = "PDF-merger tool"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pypdf>=6.0.0",
+]
